@@ -9,7 +9,7 @@ const Login = () => {
     const [emailId, setEmailId] = useState("mithun@gmail.com");
     const [password, setPassword] = useState("Mithun@143");
     const dispatch = useDispatch();
-    const navigate = useNavigate()
+    const navigate = useNavigate();
 
     const handleLogin = async () => {
         try {
