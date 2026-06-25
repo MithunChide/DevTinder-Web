@@ -4,11 +4,12 @@ import React from 'react'
 const UserCard = ({user}) => {
     const {firstName, lastName, age, gender, photoUrl, about} = user;
   return (
-    <div className="card bg-neutral w-96 shadow-sm">
+    <div className="card bg-neutral w-96 shadow-sm my-6">
   <figure>
     <img
       src={photoUrl}
-      alt="photo"/>
+      alt="photo"
+      />
 
   </figure>
   <div className="card-body">
