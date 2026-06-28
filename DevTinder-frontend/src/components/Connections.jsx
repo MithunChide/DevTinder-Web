@@ -41,8 +41,6 @@ const Connections = () => {
                         {age && gender && <p>{age + ", " + gender}</p>}
                         <p>{about}</p>
                     </div>
-                    {/* <button className="btn btn-active btn-primary">Reject</button>
-                    <button className="btn btn-active btn-secondary">Accepted</button> */}
                 </div>
             )
         })}
